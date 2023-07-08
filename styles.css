@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#chat-box {
+  height: 400px;
+  overflow-y: auto;
+}
+
+#chat-box p {
+  border: 1px solid #9db2bf;
+  padding: 10px;
+  border-radius: 10px;
+  animation: fadeIn .2s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
