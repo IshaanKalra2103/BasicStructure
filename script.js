@@ -1,4 +1,4 @@
-const API_KEY = process.env.API_KEY;
+const API_KEY = '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';
 const API_URL =
   "https://api.openai.com/v1/engines/text-davinci-003/completions";
 
